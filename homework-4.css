@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
 body {
   background-color: #551111
 }
 
 .container {
   background-color: #119955
+}
+
+.left-column p {
+  margin: 0px;
 }
