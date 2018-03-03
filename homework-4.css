@@ -19,3 +19,6 @@ body {
 .title {
   font-style: italic;
 }
+.right-column p {
+  font-size: 15px;
+}
