@@ -22,3 +22,7 @@ body {
 .right-column p {
   font-size: 15px;
 }
+.caption {
+  font-size: 10px;
+  color: #d3d3d3;
+}
