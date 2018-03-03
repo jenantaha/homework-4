@@ -9,6 +9,10 @@ body {
   background-color: #119955
 }
 
+h1 {
+  font-size: 35px;
+}
+
 .left-column p {
   margin: 0px;
 }
