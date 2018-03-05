@@ -45,12 +45,15 @@ h1 {
 .right-column p {
   font-size: 15px;
 }
+.photo {
+  box-shadow: 5px 10px black;
+  border: 2px solid gray;
+}
 .caption {
   font-size: 10px;
   color: #d3d3d3;
   padding-top: 10px;
   border-bottom: 2px dotted black; /*2*/
   padding-bottom: 6px; /*2*/
-  box-shadow: 2px 4px #888888;
 }
 }
