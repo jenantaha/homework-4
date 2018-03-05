@@ -20,10 +20,13 @@ body {
 h1 {
   font-size: 35px;
   color: #AABBCC  /*1*/
+  
+
 }
 .left-column {
   width: 25%;
   font-family: Arial; /*1*/
+  margin: 20px 15px 15px 15px;
 }
 
 .left-column p {
@@ -39,12 +42,13 @@ h1 {
 }
 .title {
   font-style: italic;
-  font-weight: bolder;
-  font-size: 15px;
-  color: #AAAAAA;
+  font-weight: bolder; /*2*/
+  font-size: 15px; /*2*/
+  color: #AAAAAA; /*2*/
 }
 .right-column {
   width: 75%;
+  margin: 20px 15px 15px 15px;
 }
 .right-column p {
   font-size: 15px;
