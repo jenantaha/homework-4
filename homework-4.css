@@ -3,15 +3,15 @@
   }
   @media(min-width: 500px) {
     .container {
-      background-color: #119955
+      background-color: #119955;
       max-width: 900px;
       margin: 0 auto;
       box-shadow: 3px; /*3*/
     }
 
 body {
-  background-color: #551111
-  padding-bottom: 12px;  /*1 why did the background color go away???*/
+  background-color: #551111;
+  padding-bottom: 12px;
 
 }
 
@@ -20,13 +20,14 @@ body {
 h1 {
   font-size: 35px;
   color: #AABBCC  /*1*/
-  
+
 
 }
 .left-column {
+  float: left;
   width: 25%;
   font-family: Arial; /*1*/
-  margin: 20px 15px 15px 15px;
+  margin: 20px 15px 15px 15px; /*1*/
 }
 
 .left-column p {
@@ -48,7 +49,7 @@ h1 {
 }
 .right-column {
   width: 75%;
-  margin: 20px 15px 15px 15px;
+  margin: 20px 15px 15px 15px; /*1*/
 }
 .right-column p {
   font-size: 15px;
