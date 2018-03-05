@@ -69,11 +69,11 @@ h1 {
 .photo {
   box-shadow: 5px 10px black; /*2*/
   border: 2px solid gray; /*2*/
-
+  width: 90%;
 }
 .caption {
   font-size: 10px;
-  color: #d3d3d3;
+  color: gray;
   padding-top: 10px;
   border-bottom: 2px dotted black; /*2*/
   padding-bottom: 6px; /*2*/
