@@ -6,10 +6,12 @@
       background-color: #119955
       max-width: 900px;
       margin: 0 auto;
+      box-shadow: 5px; /*3*/
     }
 
 body {
   background-color: #551111
+
 }
 
 
@@ -19,6 +21,7 @@ h1 {
 }
 .left-column {
   width: 25%;
+  font-family: Arial;
 }
 
 .left-column p {
@@ -28,8 +31,9 @@ h1 {
 .left-column a {
   font-weight: bold;
   font-size: 17px;
-  color: blue;
-  text-decoration: none;
+  color: blue;  /*1*/
+  text-decoration: none; /*2*/
+
 }
 .title {
   font-style: italic;
