@@ -17,16 +17,25 @@ body {
 h1 {
   font-size: 35px;
 }
+.left-column {
+  width: 25%;
+}
 
 .left-column p {
   margin: 0px;
+
 }
 .left-column a {
   font-weight: bold;
   font-size: 17px;
+  color: blue;
 }
 .title {
   font-style: italic;
+
+}
+.right-column {
+  width: 75%;
 }
 .right-column p {
   font-size: 15px;
