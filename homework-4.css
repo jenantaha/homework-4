@@ -1,7 +1,23 @@
 * {
     box-sizing: border-box;
+    overflow: auto;
   }
   @media(min-width: 500px) {
+    .right-column {
+      float: left;
+      width: 75%;
+      padding: 20px 15px 15px 15px; /*1*/
+      overflow:auto;
+
+    }
+    .left-column {
+      float: left;
+      width: 25%;
+      font-family: Arial; /*1*/
+      padding: 20px 15px 15px 15px; /*1*/
+      overflow:auto;
+    }
+  }
     .container {
       background-color: #119955;
       max-width: 900px;
@@ -19,16 +35,12 @@ body {
 
 h1 {
   font-size: 35px;
-  color: #AABBCC  /*1*/
+  color: #AABBCC;  /*1*/
+  text-shadow: 2px 2px #ff0000;
 
 
 }
-.left-column {
-  float: left;
-  width: 25%;
-  font-family: Arial; /*1*/
-  margin: 20px 15px 15px 15px; /*1*/
-}
+
 
 .left-column p {
   margin: 0px;
@@ -47,10 +59,7 @@ h1 {
   font-size: 15px; /*2*/
   color: #AAAAAA; /*2*/
 }
-.right-column {
-  width: 75%;
-  margin: 20px 15px 15px 15px; /*1*/
-}
+
 .right-column p {
   font-size: 15px;
   font-family: times;  /*1*/
