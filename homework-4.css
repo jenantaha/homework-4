@@ -37,6 +37,7 @@ h1 {
   font-size: 35px;
   color: #116411;  /*1*/
   text-shadow: 3px 1px #AADDDD;
+  padding-left: 17px;
 
 }
 
@@ -62,6 +63,7 @@ h1 {
 .right-column p {
   font-size: 15px;
   font-family: times;  /*1*/
+  margin: 0;
 }
 .photo {
   box-shadow: 5px 10px black; /*2*/
