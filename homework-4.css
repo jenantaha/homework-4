@@ -8,39 +8,36 @@
       width: 75%;
       padding: 17px; /*1*/
       overflow:auto;
-
     }
+
     .left-column {
       float: left;
       width: 25%;
-      font-family: Arial; /*1*/
-      padding: 17px; /*1*/
+      font-family: Arial; /*2*/
+      padding: 17px; /*3*/
       overflow:auto;
     }
+
   }
     .container {
       background-color: #faebd7;
       max-width: 900px;
       margin: 0 auto;
-      box-shadow: 3px; /*3*/
+      box-shadow: 3px; /*4*/
     }
 
 body {
   background-color: #551111;
-  padding-bottom: 12px;
-
+  padding-bottom: 14px; /*5*/
 }
-
-
 
 h1 {
   font-size: 35px;
-  color: #116411;  /*1*/
-  text-shadow: 3px 1px #AADDDD;
-  padding-left: 17px;
+  color: #116411;  /*6*/
+  text-shadow: 3px 1px #AADDDD; /*7*/
+  padding-left: 17px; /*8*/
 
 }
-
 
 .left-column p {
   margin: 0px;
@@ -49,33 +46,33 @@ h1 {
 .left-column a {
   font-weight: bold;
   font-size: 17px;
-  color: blue;  /*1*/
-  text-decoration: none; /*2*/
+  color: blue;  /*9*/
+  text-decoration: none; /*10*/
 
 }
 .title {
   font-style: italic;
-  font-weight: bolder; /*2*/
-  font-size: 15px; /*2*/
-  color: #AAAAAA; /*2*/
+  font-weight: bolder; /*11*/
+  font-size: 15px; /*12*/
+  color: #AAAAAA; /*13*/
 }
 
 .right-column p {
   font-size: 15px;
-  font-family: times;  /*1*/
-  margin-top: 0; /*1*/
-  margin-bottom: 12px;
+  font-family: times;  /*14*/
+  margin-top: 0; /*15*/
 }
+
 .photo {
-  box-shadow: 5px 10px black; /*2*/
-  border: 2px solid gray; /*2*/
-  width: 90%;
+  box-shadow: 5px 10px black; /*16*/
+  border: 2px solid gray; /*17*/
+  width: 90%; /*18*/
 }
 .caption {
   font-size: 10px;
-  color: gray;
+  color: gray; /*19*/
   padding-top: 10px;
-  border-bottom: 2px dotted black; /*2*/
-  padding-bottom: 6px; /*2*/
+  border-bottom: 2px dotted black;  /*20*/
+  padding-bottom: 6px; /*21*/
 
 }
